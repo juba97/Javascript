@@ -39,7 +39,7 @@ null + 1
 undefined + 1
 " \t \n" - 2
 
-// The answers is:
+//The answers is:
 "" + 1 + 0 = "10" 
 "" - 1 + 0 = -1 
 true + false = 1
