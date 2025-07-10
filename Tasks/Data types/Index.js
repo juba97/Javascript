@@ -17,3 +17,8 @@ alert( `hello ${"name"}` ); // hello name
 
 // the expression is a variable, embed it
 alert( `hello ${name}` ); // hello Ilya
+
+// 2) Create a web-page that asks for a name and outputs it.
+
+let name = prompt("What is your name?", "");
+alert(name);
