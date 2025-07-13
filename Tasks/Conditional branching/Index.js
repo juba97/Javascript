@@ -83,4 +83,26 @@ let b = 5;
 let result = (a + b < 4) ? "Below" : "Over";
 console.log(result);
 
+// 8) Rewrite if..else using multiple ternary operators '?'.
 
+let message;
+
+if (login == 'Employee') {
+  message = 'Hello';
+} else if (login == 'Director') {
+  message = 'Greetings';
+} else if (login == '') {
+  message = 'No login';
+} else {
+  message = '';
+}
+
+//The answer is:
+let login = 'Employee'; 
+
+let message = (login == 'Employee') ? 'Hello' :
+  (login == 'Director') ? 'Greetings' :
+  (login == '') ? 'No login' :
+  '';
+
+console.log(message);
