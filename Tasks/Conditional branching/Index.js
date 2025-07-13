@@ -66,3 +66,21 @@ if (number > 0) {
 }else {
     alert(0);
 }
+
+// 7) Rewrite this if using the conditional operator '?':
+let result;
+
+if (a + b < 4) {
+  result = 'Below';
+} else {
+  result = 'Over';
+}
+
+//The answer is:
+let a = 2;
+let b = 5;
+
+let result = (a + b < 4) ? "Below" : "Over";
+console.log(result);
+
+
