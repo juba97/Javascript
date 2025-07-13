@@ -3,7 +3,6 @@ const userIsAdmin = true;
 const discount = userIsAdmin ? 25 : 0;
 console.log(`The discount is ${discount}%`);
 
-
 // calculate shipping cost based on distance
 const userDistance = 45;
 const shippingCost = userDistance <= 50 ? 10 : 15;
