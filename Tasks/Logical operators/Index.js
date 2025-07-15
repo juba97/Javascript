@@ -1,6 +1,7 @@
 // 1) What is the code below going to output?
 
 alert( null || 2 || undefined );
+
 // The answer is 2, that’s the first truthy value.
 
 // 2) What will the code below output?
