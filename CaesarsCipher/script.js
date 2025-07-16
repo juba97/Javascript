@@ -1,4 +1,5 @@
 function caesarCipher(str, kMove) {
+	
 	let move = parseInt(kMove);
 	let string = str.toLowerCase();
 	let encrypted = "";
