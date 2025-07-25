@@ -1,5 +1,6 @@
 // 1) What will be the result for these expressions?
 
+
 5 > 4
 "apple" > "pineapple"
 "2" > "12"
