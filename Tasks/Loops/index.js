@@ -98,3 +98,13 @@ for (let i = 2; i <= n; i++) { // for each i...
 
   alert(i); // a prime
 }
+
+// 7) Print a small triangle with "*" symbols
+
+for (let i = 1; i <= 5; i++) {
+  let row = "";
+  for (let j = 1; j <= i; j++) {
+    row += "*";
+  }
+  console.log(row);
+}
