@@ -108,3 +108,9 @@ for (let i = 1; i <= 5; i++) {
   }
   console.log(row);
 }
+
+// 8) Print all characters in the string "hello" on a separate line.
+const str = "hello";
+for (let i = 0; i <= str.length; i++){
+  console.log(str[i]);
+}
