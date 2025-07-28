@@ -114,3 +114,11 @@ const str = "hello";
 for (let i = 0; i <= str.length; i++){
   console.log(str[i]);
 }
+
+// 9) Print the string "hello" backwards (first letter last)
+let str = "hello";
+let reversedStr = "";   
+for (let i = str.length - 1; i >= 0; i--) {
+  reversedStr += str[i];
+}
+console.log(reversedStr); // Output: "olleh"
