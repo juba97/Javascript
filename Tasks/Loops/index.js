@@ -122,3 +122,14 @@ for (let i = str.length - 1; i >= 0; i--) {
   reversedStr += str[i];
 }
 console.log(reversedStr); // Output: "olleh"
+
+// 9) Reverse a number
+
+let num = 12345;
+let reversed = 0;
+while(num > 0){
+  let digit = num % 10;
+  reversed = reversed * 10  + digit;
+  num = Math.floor(num / 10);
+}
+console.log(reversed);
