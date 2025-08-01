@@ -1,5 +1,4 @@
 // 1) Find the "JavaScript" in an array
-
 let str = ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js'];
 let search = 'JavaScript';
 for (let i = 0; i < str.length; i++) {
@@ -18,6 +17,7 @@ for(let i = 0; i < arr.length; i++) {
         }
     }
 }
+
 
 
 
