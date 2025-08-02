@@ -18,7 +18,7 @@ for(let i = 0; i < arr.length; i++) {
     }
 }
 
-// 1)What is this code going to show?
+// 3) What is this code going to show?
 
 let fruits = ["Apples", "Pear", "Orange"];
 
@@ -30,3 +30,22 @@ shoppingCart.push("Banana");
 alert( fruits.length ); // ?,  4
 
 // That’s because arrays are objects. So both shoppingCart and fruits are the references to the same array.
+
+/*
+        4) Let’s try 5 array operations.
+
+    • Create an array styles with items “Jazz” and “Blues”.
+    • Append “Rock-n-Roll” to the end.
+    • Replace the value in the middle with “Classics”. Your code for finding the middle value should work for any arrays with odd length.
+    • Strip off the first value of the array and show it.
+    • Prepend Rap and Reggae to the array.
+*/
+
+let styles = ["Jazz", "Blues"];
+styles.push("Rock-n-Roll"); 
+styles[Math.floor(styles.length -1  / 2)] = "Classics"; 
+console.log(styles.shift());       
+styles.unshift("Rap", "Reggae");
+console.log(styles); 
+
+// The final array will be: ["Rap", "Reggae", "Classics", "Blues", "Rock-n-Roll"]
