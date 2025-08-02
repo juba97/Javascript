@@ -49,3 +49,19 @@ styles.unshift("Rap", "Reggae");
 console.log(styles); 
 
 // The final array will be: ["Rap", "Reggae", "Classics", "Blues", "Rock-n-Roll"]
+
+// 5) What is the result? Why?
+
+let arr = ["a", "b"];
+
+arr.push(function() {
+  alert( this );
+});
+
+arr[2](); // ?
+
+/*
+    The call arr[2]() is syntactically the good old obj[method](), in the role of obj we have arr, and in the role of method we have 2.
+    So we have a call of the function arr[2] as an object method. Naturally, it receives this referencing the object arr and outputs the array
+    The array has 3 values: initially it had two, plus the function.
+*/
